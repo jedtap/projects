@@ -10,22 +10,14 @@ import '../node_modules/devicon/icomoon.json'
 
 import './App.css'
 
-import Contact from './components/Contact'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import About from './components/About'
 
 const App = () => {
-
-  const toggleContact = () => {
-    const overlay = document.querySelector('.contactdummy');
-    overlay.style.display === 'none' ? overlay.style.display = 'block' : overlay.style.display = 'none';
-  };
-
   return (<>
     <BrowserRouter>   
-      <Contact toggleContact={toggleContact} />
-      <Navbar toggleContact={toggleContact} />
+      <Navbar />
       <Routes>
         <Route path='/projects' element={<Projects />} />
         <Route path='/projects/about' element={<About />} />

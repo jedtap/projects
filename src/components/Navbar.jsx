@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import '../styles/Navbar.css';
 import Resume from '../docs/Tapiador-Resume-RME-CSM.pdf'
 
-const Navbar = ({ toggleContact }) => {
+const Navbar = () => {
   return (<>
     <nav className="navbar navbar-expand-lg"> <div className="container-fluid">
       <Link to='/projects' className="navbar-brand">JED TAPIADOR</Link>
@@ -18,7 +18,7 @@ const Navbar = ({ toggleContact }) => {
           <Link to='/projects/about' className="nav-link">About</Link>
         </li>
         <li className="nav-item">
-          <div className="nav-link" onClick={()=>{toggleContact()}}>Contact</div>
+          <a className="nav-link" href="https://forms.gle/3DhefWUMXfsuUnEk8" target="_blank" rel="noopener noreferrer">Contact</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="https://drive.google.com/drive/folders/1dug3oPfSjJ9aq7wePPyil4iayanqjmoN?usp=sharing" target="_blank" rel="noopener noreferrer">Portfolio</a>
