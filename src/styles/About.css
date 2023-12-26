@@ -1,10 +1,19 @@
+.about-main {
+  max-width: 1024px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .about-title {
-    margin: 30px 0;
-  }
-  
+  margin: 30px 0;
+}
+
 .about-content {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
   
 .about-wrapper {
@@ -19,16 +28,93 @@
 }
   
 @media (max-width: 840px) {
-    .about-wrapper{
-      grid-template-columns: auto;
-    }
+  .about-wrapper{
+    grid-template-columns: auto;
+  }
+
+  .about-toga {
+    width: 300px;
+    justify-self: center;
+  }
+
+  .about-narrative {
+    padding: 5px 5vw;
+  }
+}
+
+/* Skillset CSS starts here */
+
+.skillset-wrapper {
+  margin-top: 30px;
+
+  display: grid;
+  grid-template-columns: repeat(3, minmax( 250px, 400px));
+  justify-content: center;
+}
+
+.skillset-cols {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.sub-name {
+  font-family: RobotoCond-bold, 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+.skillset-items {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.tile-wrapper {
+  width: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tile-wrapper > i {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.skillset-items-exp {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.exp-items {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.exp-icons {
+  width: 30px;
+  height: auto;
+}
+
+.exp-names {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+@media (max-width: 840px) {
   
-    .about-toga {
-      width: 300px;
-      justify-self: center;
-    }
-  
-    .about-narrative {
-      padding: 5px 5vw;
-    }
+  .skillset-wrapper {
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+
+  .skillset-items {
+    width: 90vw;
+  }
 }
