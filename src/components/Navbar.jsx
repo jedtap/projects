@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
+import '../styles/Navbar.css';
 import Resume from '../docs/Tapiador-Resume-RME-CSM.pdf'
 
 const Navbar = ({ toggleContact }) => {
   return (<>
-    <nav className="navbar navbar-expand-lg "> <div className="container-fluid">
-      <Link to='/projects' className="navbar-brand">Jed Tapiador</Link>
+    <nav className="navbar navbar-expand-lg"> <div className="container-fluid">
+      <Link to='/projects' className="navbar-brand">JED TAPIADOR</Link>
 
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>

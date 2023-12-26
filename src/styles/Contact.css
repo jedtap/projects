@@ -1,3 +1,7 @@
 .contactdummy {
     display: none;
 }
+
+:hover.contactdummy {
+    cursor: pointer;
+}

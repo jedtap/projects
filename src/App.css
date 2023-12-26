@@ -1,0 +1,43 @@
+:root {
+    margin: 0;
+    padding: 0;
+
+    --white: #FFFFFF;
+    --black: #000000;
+
+    --blue-dark: #0C243C;
+    --teal: #55C2C3;
+    --gray-dark: #7E8C9C;
+    --gray-light: #C9D1D5;
+    
+    --shadow: rgba(0, 0, 0, 0.5);
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url('./fonts/Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: RobotoCond;
+    src: url('./fonts/RobotoCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: RobotoCond-bold;
+    src: url('./fonts/RobotoCondensed-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('./fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-bold;
+    src: url('./fonts/Montserrat-Bold.ttf');
+}
+
+div {
+    font-family: Rubik, serif, sans-serif;
+}

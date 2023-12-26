@@ -6,6 +6,11 @@ import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import About from './components/About';
 
+import 'bootstrap/dist/css/bootstrap.css'
+import './App.css';
+
+import '../node_modules/bootstrap/dist/js/bootstrap.js'
+
 const App = () => {
 
   const toggleContact = () => {
