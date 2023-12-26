@@ -11,7 +11,7 @@ const Hero = () => {
         <div className='contact-jed'>
           <h2>Start here.</h2>
           <a className="nav-link" href="https://forms.gle/3DhefWUMXfsuUnEk8" target="_blank" rel="noopener noreferrer">
-            <button type="button" class="btn btn-info">Contact Jed</button>
+            <button type="button" className="btn btn-info">Contact Jed</button>
           </a>
         </div>
       </div>
