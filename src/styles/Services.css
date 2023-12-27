@@ -1,0 +1,38 @@
+.service-list {
+    max-width: 1024px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.service-unit {
+    max-width: 320px;
+    height: auto;
+    border-radius: 25px;
+    background-color: var(--white);
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.service-img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.service-text {
+    padding: 7px;
+}
+
+.service-title {
+    text-align: center;
+}
+
+.service-desc {
+    font-size: large;
+}

@@ -40,10 +40,27 @@ div {
     font-family: Rubik, serif, sans-serif;
 }
 
+.emphasize {
+    color: var(--teal);
+}
+
 .section-name {
     width: 100%;
     margin: auto;
     text-align: center;
   
     font-family: RobotoCond-bold, 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+.section-name-alt {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  
+    font-family: RobotoCond-bold, 'Franklin Gothic Medium', Arial, sans-serif;
+    color: var(--white);
+}
+
+.alt-color {
+    background-color: var(--blue-dark);
 }
