@@ -1,7 +1,7 @@
 # Welcome to Jed's Portfolio!
 
 Hi there! This is a portfolio website project made with the help of ReactJS and Bootstrap.<br/>
-Check the results here! 👉
+Check the results here! 👉 https://jedtap.github.io/projects
 
 ## Frameworks and Tools Used
 
@@ -27,7 +27,9 @@ Check the results here! 👉
 
 - How to create a resume by Harvard University: https://cdn-careerservices.fas.harvard.edu/wp-content/uploads/sites/161/2022/04/undergrad_resumes_and_cover_letters-1.pdf
 
-- How to deploy React app to GitHub pages: https://vitejs.dev/guide/static-deploy.html#deploying-a-static-site
+- How to deploy React app to GitHub pages:
+  - https://www.youtube.com/watch?v=XhoWXhyuW_I
+  - https://github.com/ErickKS/vite-deploy
 
 ## How did you learn all this as a parttimer??
 
