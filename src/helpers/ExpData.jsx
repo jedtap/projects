@@ -20,7 +20,7 @@ const ExpData = [
   { key: 307, name: 'Software Development', img: Dev, alt: 'icon of a computer and smart phone' },
   { key: 308, name: 'Agile and Scrum', img: Teamwork, alt: 'icon of 3 people standing united. Created by Chanut is Industries from freeicons.io' },
   { key: 309, name: 'Resource Management', img: Resource, alt: 'icon of 3 different persons' },
-  { key: 310, name: 'Product Owner', img: Sdk, alt: 'icon of an SDK file' }
+  { key: 310, name: 'Product Management', img: Sdk, alt: 'icon of an SDK file' }
 ];
 
 export default ExpData;
