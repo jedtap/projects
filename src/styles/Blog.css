@@ -1,0 +1,45 @@
+.linkedin-link {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: block;
+
+    color: var(--white);
+}
+
+.blog-wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog-unit {
+    max-width: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.blog-img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid var(--white);
+    border-radius: 25px;
+}
+
+.blog-link {
+    text-align: center;
+    color: var(--white);
+    margin-top: 5px;
+}
+
+:hover.blog-img {
+    transform: scale(1.03, 1.03);
+    transition: transform 0.2s ease-in-out 0.1s;
+}
