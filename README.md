@@ -27,7 +27,7 @@ Check the results here! 👉
 
 - How to create a resume by Harvard University: https://cdn-careerservices.fas.harvard.edu/wp-content/uploads/sites/161/2022/04/undergrad_resumes_and_cover_letters-1.pdf
 
-- How to deploy React app to GitHub pages by Ishara Malaviarachchi: https://medium.com/@isharamalaviarachchi/how-to-deploy-your-react-app-into-github-pages-b2c96292b18e
+- How to deploy React app to GitHub pages: https://vitejs.dev/guide/static-deploy.html#deploying-a-static-site
 
 ## How did you learn all this as a parttimer??
 
