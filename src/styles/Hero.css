@@ -18,7 +18,8 @@
 .cta {
     max-width: 1024px;
     margin: 0 auto;
-    
+    padding: 0 10px;
+
     display: grid;
     grid-template-columns: auto 10% 30%;
     grid-template-rows: auto;
@@ -26,6 +27,7 @@
 
 .right-arrow {
     font-size: 70px;
+    justify-self: center;
 }
 
 .btn-info {
@@ -34,4 +36,40 @@
 
     background-color: var(--teal);
     border-color: var(--teal);
+}
+
+@media (max-width: 700px) {
+    .cta {
+        grid-template-columns: auto 10% 35%;
+    }
+    
+    .right-arrow {
+        font-size: 50px;
+    }
+
+    .btn-info {
+        padding: 5px 20px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .spiel {
+        font-size: 20px;
+    }
+    .right-arrow {
+        font-size: 30px;
+    }
+    .contact-jed {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .action {
+        text-align: center;
+    }
+    .value-statement {
+        font-size: 22px;
+        margin: 5vh 5vw;
+    }
 }

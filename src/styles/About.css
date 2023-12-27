@@ -108,6 +108,21 @@
 }
 
 @media (max-width: 840px) {
+  .about-wrapper{
+    grid-template-columns: auto;
+  }
+
+  .about-toga {
+    width: 300px;
+    justify-self: center;
+  }
+
+  .about-narrative {
+    padding: 5px 5vw;
+  }
+}
+
+@media (max-width: 840px) {
   
   .skillset-wrapper {
     grid-template-columns: auto;

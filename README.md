@@ -1,8 +1,36 @@
-# React + Vite
+# Welcome to Jed's Portfolio!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi there! This is a portfolio website project made with the help of ReactJS and Bootstrap.<br/>
+Check the results here! 👉
 
-Currently, two official plugins are available:
+## Frameworks and Tools Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ReactJS
+- Bootstrap
+- Node-package manager (npm)
+- Git and GitHub
+
+## Node Modules Used
+
+- React, React-dom, and React-router-dom
+- Bootstrap: https://getbootstrap.com/
+- Devicon: https://devicon.dev/
+- React Slick: https://react-slick.neostack.com/
+
+## Fonts Used
+
+- Rubik: https://fonts.google.com/specimen/Rubik
+- Roboto Condensed: https://fonts.google.com/specimen/Roboto+Condensed
+- Montserrat: https://fonts.google.com/specimen/Montserrat
+
+## Guides Used
+
+- How to create a resume by Harvard University: https://cdn-careerservices.fas.harvard.edu/wp-content/uploads/sites/161/2022/04/undergrad_resumes_and_cover_letters-1.pdf
+
+- How to deploy React app to GitHub pages by Ishara Malaviarachchi: https://medium.com/@isharamalaviarachchi/how-to-deploy-your-react-app-into-github-pages-b2c96292b18e
+
+## How did you learn all this as a parttimer??
+
+I am grateful for the people behind The Odin Project. Without this free and open-source platform, I will not be able to create web applications such as this.<br/>
+<br/>
+Start your Web Development education here! 👉 https://www.theodinproject.com/

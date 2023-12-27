@@ -18,7 +18,7 @@
 }
 
 .blog-unit {
-    max-width: 450px;
+    max-width: 500px;
 
     display: flex;
     flex-direction: column;
@@ -42,4 +42,30 @@
 :hover.blog-img {
     transform: scale(1.03, 1.03);
     transition: transform 0.2s ease-in-out 0.1s;
+}
+
+
+@media (max-width: 700px) {
+    .cta {
+        grid-template-columns: auto 10% 35%;
+    }
+    
+    .right-arrow {
+        font-size: 50px;
+    }
+
+    .btn-info {
+        padding: 5px 20px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 570px) {
+    .blog-img {
+        max-width: 90%;
+        height: auto;
+        border: 3px solid var(--white);
+        border-radius: 25px;
+    }
+    
 }
