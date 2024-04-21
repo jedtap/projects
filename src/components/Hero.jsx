@@ -4,7 +4,7 @@ import '../styles/Hero.css';
 const Hero = () => {
   return (<>
     <div className='hero-wrapper'>
-      <h1 className='value-statement'>I help SMBs <span className='emphasize'>get more value</span> out of their IT projects with practical approaches to project management.</h1>
+      <h1 className='value-statement'>I empower SMBs to <span className='emphasize'>maximize their revenue generation</span> by streamlining their IT projects.</h1>
       <div className='cta'>
         <h2 className='spiel'>Ready to elevate your projects and deliver exceptional value? Let's discuss your IT project management needs.</h2>
         <div className='right-arrow'>➜</div>
